@@ -33,6 +33,9 @@ const Section: React.FC<
   }>
 > = ({children, title}) => {
   const isDarkMode = useColorScheme() === 'dark';
+  console.log(1);
+  console.log(2);
+  console.log(3);
   return (
     <View style={styles.sectionContainer}>
       <Text
